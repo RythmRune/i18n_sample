@@ -1,0 +1,8 @@
+{
+	"Hello": "Hello",
+	"%s apple": {
+		"one": "%s apple",
+		"other": "[0] no apple | [2,] %s apples"
+	},
+	"Hello, {name}": "Hello, {name}"
+}

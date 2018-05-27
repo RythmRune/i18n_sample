@@ -1,0 +1,8 @@
+{
+	"Hello": "您好",
+	"%s apple": {
+		"one": "%s 頻果",
+		"other": "%s 頻果"
+	},
+	"Hello, {name}": "您好, {name}"
+}
