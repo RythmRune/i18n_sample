@@ -265,7 +265,7 @@ module.exports.index_init = (req, res) => {
 		"one": "%s apple",
 		"other": "[0] no apple | [2,] %s apples"
 	},
-	"Hello, {name}?": "Hello, {name}"
+	"Hello, {name}": "Hello, {name}"
 }
 ```
 ```JSON
@@ -276,7 +276,7 @@ module.exports.index_init = (req, res) => {
 		"one": "%s 頻果",
 		"other": "%s 頻果"
 	},
-	"Hello, {name}?": "您好, {name}"
+	"Hello, {name}": "您好, {name}"
 }
 ```
 
