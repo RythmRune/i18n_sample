@@ -104,7 +104,7 @@ node bin/www
 
 ## Validation
 有關驗證的方式，因為 i18n 套件會使用在 header 裡面的 accept-language 去推測使用者的語言，所以可以直接在更改瀏覽器的設定來進行測試。
-以 Chrome 為例，可以在[設定]>[進階]>語言]進行設定。
+以 Chrome 為例，可以在[偏好設定]>[進階]>語言]進行設定。
 
 以上為止是i18n的基礎設定。
 
@@ -265,7 +265,7 @@ module.exports.index_init = (req, res) => {
 		"one": "%s apple",
 		"other": "[0] no apple | [2,] %s apples"
 	},
-	"Hello, {name}?": "Hello, {name}"
+	"Hello, {name}": "Hello, {name}"
 }
 ```
 ```JSON
@@ -276,7 +276,7 @@ module.exports.index_init = (req, res) => {
 		"one": "%s 頻果",
 		"other": "%s 頻果"
 	},
-	"Hello, {name}?": "您好, {name}"
+	"Hello, {name}": "您好, {name}"
 }
 ```
 
